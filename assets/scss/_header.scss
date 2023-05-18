@@ -1,0 +1,24 @@
+.header {
+  background-color: #000;
+  color: #fff;
+  padding: 35px 0;
+
+  &__inner {
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav {
+    &__list {
+      gap: 30px;
+    }
+
+    &__link {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 29px;
+    }
+  }
+}

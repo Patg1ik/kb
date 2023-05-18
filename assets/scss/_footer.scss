@@ -1,0 +1,31 @@
+.footer {
+  padding: 35px 0;
+
+  &__inner {
+    justify-content: space-between;
+  }
+
+  &__list {
+    width: 65%;
+    gap: 40px;
+  }
+
+  &__item {
+    text-align: center;
+
+    &-title {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 17px;
+      line-height: 21px;
+      color: #000000;
+      margin: 0 0 40px 0;
+    }
+
+    &-text {
+      padding: 17px 10px;
+      background-color: #000;
+      color: #fff;
+    }
+  }
+}

@@ -1,0 +1,60 @@
+.reviews {
+  background-color: #000;
+  color: #fff;
+
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+
+    .review {
+      padding: 35px 45px;
+      background: #D9D9D9;
+      gap: 50px;
+
+      &__photo {
+        width: 60%;
+        height: 150px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+
+      &__photo1 {
+        background-image: url('../images/review__item1.jpg');
+      }
+
+      &__photo2 {
+        background-image: url('../images/review__item2.jpg');
+      }
+
+      &__text {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+
+      &__name, &__description {
+        background: #000;
+        text-align: center;
+        padding: 7px 0;
+        font-style: normal;
+        font-weight: 700;
+      }
+
+      &__name {
+        font-size: 20px;
+        line-height: 24px;
+      }
+
+      &__description {
+        font-size: 18px;
+        line-height: 24px;
+      }
+    }
+  }
+
+  &__title {
+    margin: 0 0 40px 0;
+  }
+}

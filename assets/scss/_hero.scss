@@ -1,0 +1,31 @@
+.hero {
+  background-color: #707070;
+
+  &__inner {
+    justify-content: space-between;
+    gap: 40px;
+  }
+
+  &__left {
+    width: 40%;
+    background-color: #D9D9D9;
+    padding: 45px 16px;
+  }
+
+  &__text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    color: #000000;
+  }
+
+  &__right {
+    width: 50%;
+    height: 409px;
+    background-image: url('../images/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
